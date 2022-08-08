@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/test.css">
+    <link rel="stylesheet" href="../js/style.js">
+</head>
+<body>
+    <div class="scroll-up-btn show">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    <nav class="navbar sticky">
+        <div class="max-width">
+            <div class="logo"><a href="#">Portfo<span>lio.</span></a></div>
+            <ul class="menu active">
+                <li><a href="#about">Accueil</a></li>
+                <li><a href="#e4" class="menu-btn">Parcours et Projets professionnels (E4)</a></li>
+                <li><a href="#e5" class="menu-btn">Ateliers de Professionnalisation (E5)</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars active"></i>
+            </div>
+        </div>
+    </nav>
+    <section class="slider">
+        <figure>
+            <section class="home" id="home">
+                <div class="max-width">
+                    <div class="home-content">
+                        <div class="text-1">Bonjour, je m'appel</div>
+                        <div class="text-2">Hakim Djaalal</div>
+                        <span class="typing">Développeur Web</span>
+                        
+                        <div class="text-3">Et je suis un jeune <span class="typing-2">Développeur</span><span class="typed-cursor">|</span></div>
+                        <a href="mailto:hakim.djaalal@outlook.fr">Contactez moi</a>
+                    </div>
+                </div>
+            </section>
+        </figure>
+
+    <!-- Début de la section principale -->
+ 
+
+    <!-- Section à propos -->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">À mon propos</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="../img/pexels-keith-lobo-12188460.jpg" alt="Photo de profil">
+                </div>
+                <div class="column right">
+                    <div class="text">Moi c'est Romain et je suis <span class="typing">Développeur W</span><span class="typed-cursor">|</span></div>
+                    <p>Je m'appelle Romain CHAUMONT et j'ai 19 ans. Après l'obtention de mon Baccalauréat en 2020, je me suis dirigé vers des études basées sur le développement web et la programmation. C'est donc à l'École IPSSI que j'ai décidé de suivre la formation : BTS SIO option SLAM (= Développement). Dans la continuité de mon BTS, j'aimerais continuer jusqu'au master pour ensuite me lancer pleinement dans les métiers de l'informatique !</p>
+                    <a href="mon_cv.pdf" target="_blank">Télécharger mon CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section E4 -->
+    <section class="e4" id="e4">
+        <div class="max-width">
+            <h2 class="title">Épreuve E4</h2>
+
+            <div class="content">
+                <a href="veille.php">Veille technologique</a>
+            </div>
+
+            <iframe style="margin-top: 25px; border-style: none;" src="fiche_e4.pdf" width="100%" height="600px" frameborder="0" border="0" cellspacing="0">
+            </iframe>
+
+            <h3 id="ap">Ateliers de professionnalisations</h3>
+            <p>Pour travailler en mode projet et gérer le patrimoine informatique, nous avons utiliser un outil de versionning (Git et GitHub) afin de gérer les sauvegardes. Pour gérer l'avancement du projet, nous avons crééé une équipe sur Teams pour faciliter la communication et pour pouvoir analyser les objectifs et planifier les activités. Respecter les normes du RGPD et de la CNIL sont aussi importants afin de respecter des règles d'utilisation. Pour répondre aux incidents et aux demandes d'assistance et d'évolution, nous utilisons l'outil GLPI avec un système de tickets que nous pouvons traiter et orienter. Des mentions légales sont présentes, accessibles et conformesà la législations. Des testes unitaires fonctionnels ont été réalisés avant de déployer le service via le FTP FileZilla. Notre application web a été déployé avec OVH. Il a aussi fallu se maintenir à jour sur les évolutions des technologies que nous utilisions et il a aussi fallu alimenter le portfolio en fonction des évolutions de nos projets.</p>
+
+            <h3 id="stage">Stage</h3>
+            <p>Lors de ma première année, j'ai effectué mon stage chez Irosoft à Ivry-sur-Seine. Il s'agit d'une entreprise spécialisée dans l'ERP et le développement web/logiciel sur mesure. Pour ma part, j'ai travaillé ces 2 mois dans le pôle développement web.</p>
+            <p>Pour bien comprendre mes missions, il faut savoir que Irosoft possède leur propre application web de gestion d'entreprise (Chronos) qui a été développé par eux-même.</p>
+            <p>Je suis donc intervenu sur cette application web afin d'apporter des corrections ou de développper un module. Pour une des mission, j'ai dû suivre une charte précise.</p>
+            <ol>
+                <li>Chronos - Interface de connexion</li>
+                <p>Étant donné qu'ils n'avaient jamais maintenu à jour leur code, j'ai du reprendre le côté backend (PHP et SQL) afin d'avoir un code actuel qui sera par la suite plus modulable. (Gérer le patrimoine informatique, répondre aux incidents et aux demandes d'assistance et d'évolution, développer la présence en ligne de l'organisation, travailler en mode projet, organiser son développement professionnel)</p>
+
+                <li>Chronos - Tableau de planifications</li>
+                <p>Afin de mieux gérer leurs équipes et de maintenir une régularité de travail, j'ai eu pour mission de coder un tableau des planifications (HTML, CSS, PHP, SQL). Ce tableau permet aux chefs des équipes de planifier sous forme de ratio (entre 0 et 1) la charge de travail pour tel salarié, à tel date sur tel projet. Il a donc fallu lier les données de leur base de données existente au tableau. (Gérer le patrimoine informatique, répondre aux incidents et aux demandes d'assistance et d'évolution, développer la présence en ligne de l'organisation, travailler en mode projet, organiser son développement professionnel)</p>
+            </ol>
+
+            <h3 id="alternance">Alternance</h3>
+            <p>J'ai effectué mon d'alternance chez Manitoba qui est une agence de marketing et communication B2B dans le digital. Leurs principales tâches consistent à créer des sites web des plus basiques aux e-commerces, lancer des campagnes d'e-mailings et de développer des landing pages.</p>
+            <p>J'ai donc intégré une équipe de 2 développeurs afin de participer à certains projets / missions.</p>
+            <ol>
+                <li>Canal+ - Simulateur d'abonnement</li>
+                <p>Pour cette mission, j'ai du intégrer, avec des maquettes, une page web qui en fonction des choix de l'utilisateur, réagit différement en calculant la rentabilité de l'abonnement Canal en fonction du chiffre d'affaire par mois, du nombre de pintes (bières) vendues et du nombre de jours d'ouverture par moi de l'établissement. (Gérer le patrimoine informatique, travailler en mode projet, organiser son développement professionnel, développer la présence en ligne de l'organisation)</p>
+
+                <li>Canal+ - LP &amp; Emailings</li>
+                <p>Toujours pour le même client, je dois continuellement intégrer des emails (en MJML) afin de lancer des campagnes de publicités ou d'informations en fonction d'une base de données.<br>Pour les LP, il s'agit de simples modifications mensuelles pour changer les visuels ou les formulaires de contact. (Gérer le patrimoine informatique, travailler en mode projet, organiser son développement professionnel)</p>
+
+                <li>Sitour - Contenus &amp; RDV Client</li>
+                <p>Pour ce gros projet, j'ai du intégrer et créer des pages webs depuis le CMS Magento et nous rencontrons souvent les clients afin d'effectuer des recettes des fonctionnalités présentes sur leur site avant de lancer le V1 du projet. (Répondre aux incidents et aux demandes d'assisance et d'évolution, développer la présence en ligne de l'organisation, travailler en mode projet, mettre à disposition des utilisateurs un service informatique)</p>
+
+                <li>Initial - Emailings personnalisés</li>
+                <p>Pour ce client, je dois selon la demande, intégrer des emails que nous routons nous même avec la plateforme Mailjet. Ces emailings sont plus particuliers que les autres car ils possèdent des champs personnalisés que nous devons récupérer depuis une base de données du client. (Gérer le patrimoine informatique, travailler en mode projet)</p>
+
+                <li>TJC - Rédaction documentation fonctionnelle BO Wordpress</li>
+                <p>Sur ce gros projet, je suis intervenu pour rédiger une documentation fonctionnelle du backoffice de Wordpress afin que le client sâche comment modifier le site à sa guise. (Mettre à disposition des utilisateurs un service informatique)</p>
+            </ol>
+        </div>
+    </section>
+
+    <!-- Section e5 -->
+    <section class="e5" id="e5">
+        <div class="max-width">
+            <h2 class="title">Épreuve E5</h2>
+
+            <div class="content">
+                <div class="content-left">
+                    <h3>Projet Web - MYTeam</h3>
+                    <ul>
+                        <li>
+                            URL de MYTeam : <a href="https://myteam.ipssi-sio.fr" target="_blank">https://myteam.ipssi-sio.fr</a>
+                        </li>
+                        <li>
+                            Lien du dépôt GitHub : <a href="https://github.com/Romm1002/myteam" target="_blank">https://github.com/Romm1002/myteam</a>
+                        </li>
+                        <li>
+                            Documentation technique : <a href="e5/technique-web.pdf" target="_blank">Accéder</a>
+                        </li>
+                        <li>
+                            Documentation fonctionnelle : <a href="e5/fonctionnelle-web.pdf" target="_blank">Accéder</a>
+                        </li>
+                        <li>
+                            Fiche E5 : <a href="e5/e5-web.pdf" target="_blank">Ouvrir la fiche</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="content-right">
+                    <h3>Projet Application lourde (C#) - MYTeam - Admin</h3>
+                    <ul>
+                        <li>
+                            Lien du dépôt GitHub : <a href="https://github.com/Romm1002/myteam-sharp" target="_blank">https://github.com/Romm1002/myteam-sharp</a>
+                        </li>
+                        <li>
+                            Documentation technique : <a href="e5/technique-csharp.pdf" target="_blank">Accéder</a>
+                        </li>
+                        <li>
+                            Documentation fonctionnelle : <a href="e5/fonctionnelle-csharp.pdf" target="_blank">Accéder</a>
+                        </li>
+                        <li>
+                            Fiche E5 : <a href="e5/e5-csharp.pdf" target="_blank">Ourvir la fiche</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section footer -->
+    <footer>
+        <span>Créer Par <a href="#">Romain CHAUMONT</a> | <span class="far fa-copyright"></span> 2022 Tous droits réservés.</span>
+    </footer>
+
+    <script src="script.js"></script>
+<style>.footer,.generic-footer{margin-bottom:98px}@media (min-width:374px){.footer,.generic-footer{margin-bottom:78px}}@media (min-width:546px){.footer,.generic-footer{margin-bottom:56px}}@media (min-width:1055px){.footer,.generic-footer{margin-bottom:0}}.disclaimer{position:fixed;z-index:9999999;bottom:0;right:0;border-top:2px solid #ff5c62;text-align:center;font-size:14px;font-weight:400;background-color:#fff;padding:5px 10px 5px 10px}.disclaimer a:hover{text-decoration:underline}@media (min-width:1052px){.disclaimer{text-align:right;border-left:2px solid red;border-top-left-radius:10px}}@media (min-width:1920px){.disclaimer{width:60%}}</style><div class="disclaimer">We support Ukraine and condemn war. Push Russian government to act against war. Be brave, vocal and show your support to Ukraine. Follow the latest news <a title="https://www.bbc.com/news/live/world-europe-60517447" target="_blank" href="https://www.bbc.com/news/live/world-europe-60517447" style="color: black;"><b>HERE</b></a></div>
+
+
+<style type="text/css" data-typed-js-css="true">
+        .typed-cursor{
+          opacity: 1;
+        }
+        .typed-cursor.typed-cursor--blink{
+          animation: typedjsBlink 0.7s infinite;
+          -webkit-animation: typedjsBlink 0.7s infinite;
+                  animation: typedjsBlink 0.7s infinite;
+        }
+        @keyframes typedjsBlink{
+          50% { opacity: 0.0; }
+        }
+        @-webkit-keyframes typedjsBlink{
+          0% { opacity: 1; }
+          50% { opacity: 0.0; }
+          100% { opacity: 1; }
+        }
+      </style></body>
+</html>
